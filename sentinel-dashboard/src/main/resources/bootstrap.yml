@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: dashboard-custom
+  cloud:
+    nacos:
+      config:
+        username: greatwall
+        password: greatwall
+        server-addr: 49.233.205.10:8848
+        file-extension: yaml
+        group: dev
+        namespace: framework
